@@ -31,7 +31,8 @@
    <configuration>
       <configuration>
          <properties>
-            <cargo.servlet.port>8080</cargo.servlet.port>
+            <cargo.remote.username>admin</cargo.remote.username>
+            <cargo.remote.password>admin</cargo.remote.password>
          </properties>
       </configuration>
    </configuration>
