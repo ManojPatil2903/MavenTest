@@ -24,6 +24,19 @@
         <artifactId>maven-war-plugin</artifactId>
          <version>3.3.1</version>
       </plugin>
+      <plugin>
+   <groupId>org.codehaus.cargo</groupId>
+   <artifactId>cargo-maven3-plugin</artifactId>
+   <version>1.9.9</version>
+   <configuration>
+      <configuration>
+         <properties>
+            <cargo.servlet.port>8080</cargo.servlet.port>
+         </properties>
+      </configuration>
+   </configuration>
+</plugin>
+      
     </plugins>
   </build>
 </project>
