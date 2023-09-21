@@ -24,19 +24,7 @@
         <artifactId>maven-war-plugin</artifactId>
          <version>3.3.1</version>
       </plugin>
-      <plugin>
-   <groupId>org.codehaus.cargo</groupId>
-   <artifactId>cargo-maven3-plugin</artifactId>
-   <version>1.9.9</version>
-   <configuration>
-      <configuration>
-         <properties>
-            <cargo.remote.username>admin</cargo.remote.username>
-            <cargo.remote.password>admin</cargo.remote.password>
-         </properties>
-      </configuration>
-   </configuration>
-</plugin>
+      
       
     </plugins>
   </build>
